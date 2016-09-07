@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Car-Go!</string>
+    <string name="from_button">Из какого города</string>
+    <string name="in_button">В какой город</string>
+    <string name="calculation_button">Рассчитать стоимость</string>
+    <string name="action_settings">Выход на рабочий стол</string>
+    <string name="title_activity_cities">Выберите город</string>
+    <string name="volume">Объем (куб. м.)</string>
+    <string name="weight">Вес (кг)</string>
+</resources>

@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    /*
+    signingConfigs {
+        config {
+            keyAlias 'Collapsar'
+            keyPassword 'cb4yb5wf'
+            storeFile file('/home/ton/AndroidStudioProjects/Calculating/keystore/key.jks')
+            storePassword 'cb4yb5wf'
+        }
+    }
+    */
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+    defaultConfig {
+        applicationId "com.dostavkagruzov.calculating"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.2.0'
+}
